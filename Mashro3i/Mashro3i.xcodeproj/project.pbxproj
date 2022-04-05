@@ -10,6 +10,7 @@
 		1455E3CC27F886FC00C3E3E1 /* details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455E3CB27F886FC00C3E3E1 /* details.swift */; };
 		1455E3D027F9D67800C3E3E1 /* SourceCodePro-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E3CF27F9D67800C3E3E1 /* SourceCodePro-Italic-VariableFont_wght.ttf */; };
 		1455E3D327F9D74900C3E3E1 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E3D227F9D74900C3E3E1 /* Raleway-VariableFont_wght.ttf */; };
+		1455E3DB27FBACAD00C3E3E1 /* NotoKufiArabic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1455E3DA27FBACAD00C3E3E1 /* NotoKufiArabic-VariableFont_wght.ttf */; };
 		14677E6327F607BF0067A41C /* Mashro3iApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14677E6227F607BF0067A41C /* Mashro3iApp.swift */; };
 		14677E6527F607BF0067A41C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14677E6427F607BF0067A41C /* ContentView.swift */; };
 		14677E6727F607C10067A41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14677E6627F607C10067A41C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		1455E3CB27F886FC00C3E3E1 /* details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = details.swift; sourceTree = "<group>"; };
 		1455E3CF27F9D67800C3E3E1 /* SourceCodePro-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		1455E3D227F9D74900C3E3E1 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		1455E3DA27FBACAD00C3E3E1 /* NotoKufiArabic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoKufiArabic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		14677E5F27F607BF0067A41C /* Mashro3i.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mashro3i.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14677E6227F607BF0067A41C /* Mashro3iApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mashro3iApp.swift; sourceTree = "<group>"; };
 		14677E6427F607BF0067A41C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			children = (
 				1455E3CF27F9D67800C3E3E1 /* SourceCodePro-Italic-VariableFont_wght.ttf */,
 				1455E3D227F9D74900C3E3E1 /* Raleway-VariableFont_wght.ttf */,
+				1455E3DA27FBACAD00C3E3E1 /* NotoKufiArabic-VariableFont_wght.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -51,7 +54,6 @@
 		14677E5627F607BF0067A41C = {
 			isa = PBXGroup;
 			children = (
-				1455E3CE27F9D64800C3E3E1 /* fonts */,
 				14677E6127F607BF0067A41C /* Mashro3i */,
 				14677E6027F607BF0067A41C /* Products */,
 			);
@@ -68,6 +70,7 @@
 		14677E6127F607BF0067A41C /* Mashro3i */ = {
 			isa = PBXGroup;
 			children = (
+				1455E3CE27F9D64800C3E3E1 /* fonts */,
 				14677E6227F607BF0067A41C /* Mashro3iApp.swift */,
 				14677E6427F607BF0067A41C /* ContentView.swift */,
 				1455E3CB27F886FC00C3E3E1 /* details.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				1455E3D027F9D67800C3E3E1 /* SourceCodePro-Italic-VariableFont_wght.ttf in Resources */,
 				1455E3D327F9D74900C3E3E1 /* Raleway-VariableFont_wght.ttf in Resources */,
+				1455E3DB27FBACAD00C3E3E1 /* NotoKufiArabic-VariableFont_wght.ttf in Resources */,
 				14677E6A27F607C10067A41C /* Preview Assets.xcassets in Resources */,
 				14677E6727F607C10067A41C /* Assets.xcassets in Resources */,
 			);

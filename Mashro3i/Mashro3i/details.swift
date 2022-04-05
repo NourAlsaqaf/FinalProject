@@ -6,15 +6,17 @@
 //
 
 import SwiftUI
-let backgroundGradient = LinearGradient(
-    gradient: Gradient(colors: [Color.orange, Color.pink]),
-    startPoint: .top, endPoint: .bottom)
+
 struct details: View {
+
     var mashs : mashS
+  //  let backgroundGradient =
     var body: some View {
         ZStack{
             
-            backgroundGradient
+            LinearGradient(
+                gradient: Gradient(colors: [mashs.colors[0], mashs.colors[1]]),
+                startPoint: .top, endPoint: .bottom)
                             .ignoresSafeArea()
 //            Color.blue
 //                .ignoresSafeArea()
@@ -29,11 +31,14 @@ struct details: View {
                 .font(.largeTitle)
                 .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
-//                .bold()
+                .font(.custom("Raleway-VariableFont_wght", size: 40))
+            
             Text(mashs.description)
-                .font(.title2)
                 .foregroundColor(Color.white)
                 .multilineTextAlignment(.center)
+                .font(.title2)
+            
+            
         }
         }
     }
@@ -41,7 +46,9 @@ struct details: View {
 
 
 struct details_Previews: PreviewProvider {
+    @State static var color1 = Color.pink
+    @State static var color2 = Color.orange
     static var previews: some View {
-        details(mashs: candyshop)
+        details( mashs: Deserve)
     }
 }
