@@ -15,18 +15,18 @@ public class viewPagerAdapter extends PagerAdapter {
 
     Context context;
 
-    int images[]={
+    int[] images ={
             R.drawable.get11,
             R.drawable.set22,
             R.drawable.vet33,
 
     };
-    int headings[]={
+    int[] headings ={
             R.string.heading_one,
             R.string.heading_two,
             R.string.heading_three,
     };
-    int decs[]={
+    int[] decs ={
             R.string.desc_one,
             R.string.desc_two,
             R.string.desc_three,
@@ -50,14 +50,14 @@ public class viewPagerAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
        View view = layoutInflater.inflate(R.layout.slider_layout, container,false);
 
-        ImageView slidetitileimage  = (ImageView) view.findViewById(R.id.helping);
+        ImageView slidetitileimage12 = (ImageView) view.findViewById(R.id.helping);
         TextView slideHeading = (TextView) view.findViewById(R.id.textView26);
         TextView slideDesc = (TextView) view.findViewById(R.id.textView27);
 
-        slidetitileimage.setImageResource(images[position]);
+        slidetitileimage12.setImageResource(images[position]);
         slideHeading.setText(headings[position]);
         slideDesc.setText(decs[position]);
 
