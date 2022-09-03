@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Ilost</string>
+
+    //Headings
+    <string name="heading_one">Welcome To I lost!</string>
+    <string name="heading_two">with I lost </string>
+    <string name="heading_three">Creat Your Account</string>
+
+
+    //Description
+    <string name="desc_one">Lets Get Started!</string>
+    <string name="desc_two">You Will Be Able To Find Your lost Item Faster And Easier</string>
+    <string name="desc_three">And Become Part Of Our App</string>
+
 </resources>

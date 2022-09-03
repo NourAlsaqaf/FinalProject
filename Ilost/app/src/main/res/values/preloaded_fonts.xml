@@ -4,5 +4,8 @@
         <item>@font/asul</item>
         <item>@font/bungee</item>
         <item>@font/enriqueta</item>
+        <item>@font/poppins</item>
+        <item>@font/poppins_bold</item>
+        <item>@font/poppins_thin</item>
     </array>
 </resources>
