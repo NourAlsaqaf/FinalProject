@@ -14,6 +14,7 @@ import androidx.viewpager.widget.PagerAdapter;
 public class viewPagerAdapter extends PagerAdapter {
 
     Context context;
+
     int images[]={
             R.drawable.get11,
             R.drawable.set22,
@@ -49,9 +50,8 @@ public class viewPagerAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-        return super.instantiateItem(container, position);
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
-        View view = layoutInflater.inflate(R.layout.slider_layout, container,false);
+       View view = layoutInflater.inflate(R.layout.slider_layout, container,false);
 
         ImageView slidetitileimage  = (ImageView) view.findViewById(R.id.helping);
         TextView slideHeading = (TextView) view.findViewById(R.id.textView26);
