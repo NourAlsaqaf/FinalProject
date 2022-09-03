@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/getstarted"
+    android:background="@drawable/getst"
     android:orientation="vertical">
 
 
@@ -27,7 +27,7 @@
         android:text="@string/heading_one"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView27"
@@ -38,7 +38,7 @@
         android:text="@string/desc_one"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:shadowColor="@color/black"
         android:shadowDx="0"
         android:shadowDy="0"

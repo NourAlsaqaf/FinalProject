@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-     ViewPager mSLideViewPager;
+     ViewPager mSlideViewPager;
      LinearLayout mDotLayout;
      Button nextButton,backButton, skipButton;
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
              if (getitem(0)>0){
 
-           mSLideViewPager.setCurrentItem(getitem(-1),true);
+           mSlideViewPager.setCurrentItem(getitem(-1),true);
 
                }
             }
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (getitem(0)<3)
-                mSLideViewPager.setCurrentItem(getitem(1),true);
+                mSlideViewPager.setCurrentItem(getitem(1),true);
                 else{
                     Intent i = new Intent(MainActivity.this,MainActivity4.class);
                startActivity(i);
@@ -65,15 +65,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mSLideViewPager = (ViewPager) findViewById(R.id.viewPager);
+        mSlideViewPager = (ViewPager) findViewById(R.id.slideshow);
         mDotLayout = (LinearLayout) findViewById(com.google.android.material.R.id.layout);
 
         viewPagerAdapter = new viewPagerAdapter(this);
 
-        mSLideViewPager.setAdapter(viewPagerAdapter);
+        mSlideViewPager.setAdapter(viewPagerAdapter);
 
          setUpindicator(0);
-mSLideViewPager.addOnPageChangeListener(viewListener);
+mSlideViewPager.addOnPageChangeListener(viewListener);
 
     }
     public void setUpindicator(int position){
@@ -100,7 +100,6 @@ mSLideViewPager.addOnPageChangeListener(viewListener);
 
          @Override
          public void onPageSelected(int position) {
-
              setUpindicator(position);
              if (position > 0){
                  backButton.setVisibility(View.VISIBLE);
@@ -116,7 +115,7 @@ mSLideViewPager.addOnPageChangeListener(viewListener);
          }
      };
     private int getitem(int i){
-        return mSLideViewPager.getCurrentItem() + i ;
+        return mSlideViewPager.getCurrentItem() + i ;
     }
 
 

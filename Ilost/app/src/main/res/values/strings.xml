@@ -18,6 +18,14 @@
     <string name="full">Full Name</string>
     <string name="mail">Email</string>
 
+    //intro page
+    <string name="nb">Next</string>
+    <string name="bb">Back</string>
+    <string name="sb">Skip</string>
+
+    //item list page
+    <string name="itemName">Item Name</string>
+    <string name="itemHour">Time</string>
 
 
 
