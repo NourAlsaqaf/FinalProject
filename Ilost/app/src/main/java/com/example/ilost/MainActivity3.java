@@ -15,6 +15,7 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
         Button b = findViewById(R.id.button33);
         b.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Intent intent = (new Intent(MainActivity3.this,MainActivity4.class));
