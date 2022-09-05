@@ -17,6 +17,7 @@
     <string name="intro">Create Your Account</string>
     <string name="full">Full Name</string>
     <string name="mail">Email</string>
+    <string name="pass">Password</string>
 
     //intro page
     <string name="nb">Next</string>

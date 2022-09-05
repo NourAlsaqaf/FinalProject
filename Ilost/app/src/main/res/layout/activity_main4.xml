@@ -12,17 +12,16 @@
         android:id="@+id/buttonCreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button"
+        android:background="@color/white"
         android:fontFamily="@font/enriqueta"
+        android:shadowColor="@color/black"
+        android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768"
-        android:background="@color/white"
-        android:shadowColor="@color/black"
-        />
+        app:layout_constraintVertical_bias="0.824" />
 
     <EditText
         android:id="@+id/fullNameETXT"
@@ -38,19 +37,32 @@
         android:autofillHints="...">
     </EditText>
 
+
+    <EditText
+        android:id="@+id/fullNameETXT2"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:autofillHints="..."
+        android:fontFamily="@font/enriqueta"
+        android:hint="@string/pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"></EditText>
+
     <EditText
         android:id="@+id/emailETXT"
         android:layout_width="207dp"
         android:layout_height="48dp"
+        android:autofillHints="..."
         android:fontFamily="@font/enriqueta"
         android:hint="@string/mail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
-        android:autofillHints="...">
-    </EditText>
+        app:layout_constraintVertical_bias="0.612"></EditText>
 
     <TextView
         android:id="@+id/textView"

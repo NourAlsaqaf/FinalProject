@@ -1,15 +1,12 @@
 package com.example.ilost;
 
-public class Items {
+import java.io.Serializable;
+
+public class Items implements Serializable {
     private String itemName;
     private String itemTime;
     private int itemImage;
-
-    public Items(String itemName, String itemTime, int itemImage) {
-        this.itemName = itemName;
-        this.itemTime = itemTime;
-        this.itemImage = itemImage;
-    }
+    private String itemLocation;
 
     public String getItemName() {
         return itemName;
@@ -34,5 +31,30 @@ public class Items {
     public void setItemImage(int itemImage) {
         this.itemImage = itemImage;
     }
-}
 
+    public String getItemLocation() {
+        return itemLocation;
+    }
+
+    public void setItemLocation(String itemLocation) {
+        this.itemLocation = itemLocation;
+    }
+
+    public String getUserNumber() {
+        return userNumber;
+    }
+
+    public void setUserNumber(String userNumber) {
+        this.userNumber = userNumber;
+    }
+
+    private String userNumber;
+
+    public Items(String itemName, String itemTime, int itemImage, String itemLocation, String userNumber) {
+        this.itemName = itemName;
+        this.itemTime = itemTime;
+        this.itemImage = itemImage;
+        this.itemLocation = itemLocation;
+        this.userNumber = userNumber;
+    }
+}
