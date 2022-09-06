@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -18,11 +19,11 @@ public class MainActivity5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
 
-        Items ikeaBag = new Items(" Ikea Bag", "30 Minutes Ago", R.drawable.ikeabag,"ggg","kkk");
-        Items airpods = new Items(" Airpods", "3 Hours Ago",R.drawable.lairpods,"kkk","ooo");
-        Items shoppingBag = new Items(" Shopping Bag", "9 Hours Ago",R.drawable.lshopbag,"lll","kkk");
-        Items backPack = new Items(" Back Pack", "1 Hour Ago",R.drawable.lbackpack,"ooo","jj");
-        Items watch = new Items(" Watch", "13 Minutes Ago",R.drawable.lwatch, "999","ooo");
+        Items ikeaBag = new Items(" Ikea Bag", "30 Minutes Ago", R.drawable.ikeabag,"Found place: Avenues","Phone Number: 876609");
+        Items airpods = new Items(" Airpods", "3 Hours Ago",R.drawable.lairpods,"Found place: starbucks-Mahbuola","Phone Number:6555478");
+        Items shoppingBag = new Items(" Shopping Bag", "9 Hours Ago",R.drawable.lshopbag,"Found place:Fintas park","Phone Number:766843");
+        Items backPack = new Items(" Back Pack", "1 Hour Ago",R.drawable.lbackpack,"Found place: Mubarkiya Bus","Phone Number:988876");
+        Items watch = new Items(" Watch", "13 Minutes Ago",R.drawable.lwatch, "Found place: Almasged Alkabeer restroom","Phone Number:988768");
 
         itemsList.add(ikeaBag);
         itemsList.add(airpods);
@@ -44,6 +45,25 @@ public class MainActivity5 extends AppCompatActivity {
 
             }
         });
+
+        ImageView k = findViewById(R.id.imageView2);
+        k.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = (new Intent(MainActivity5.this,MainActivity7.class));
+                startActivity(intent);
+            }
+        });
+        ImageView j = findViewById(R.id.imageView6);
+        j.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = (new Intent(MainActivity5.this,MainActivity6.class));
+                startActivity(intent);
+            }
+        });
+
+
 
     }
 }

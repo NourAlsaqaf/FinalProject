@@ -33,19 +33,25 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity0"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity5"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity4"
             android:exported="true">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true"/>
+
+
+
+
 
         <meta-data
             android:name="preloaded_fonts"

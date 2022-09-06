@@ -11,47 +11,45 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="610dp"
+        android:layout_height="600dp"
         android:backgroundTint="@color/ourColor"
         android:orientation="vertical">
 
         <ListView
             android:id="@+id/listView3"
             android:layout_width="410dp"
-            android:layout_height="660dp"
-            android:layout_marginStart="2dp">
-             </ListView>
+            android:layout_height="600dp"
+            android:layout_marginStart="2dp"></ListView>
     </LinearLayout>
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="637dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="177dp"
         android:background="@color/trans"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/add"
-        tools:ignore="SpeakableTextPresentCheck"
-         />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="95dp"
-        android:layout_height="wrap_content"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="648dp"
-        android:layout_marginEnd="301dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="602dp"
+        android:layout_marginEnd="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.147"
@@ -61,21 +59,19 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="71dp"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="303dp"
-        android:layout_marginTop="637dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginEnd="53dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/user"
         tools:layout_editor_absoluteY="0dp" />
-
-
 
 
 </RelativeLayout>

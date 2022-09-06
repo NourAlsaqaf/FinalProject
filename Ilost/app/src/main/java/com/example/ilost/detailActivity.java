@@ -2,7 +2,9 @@ package com.example.ilost;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,6 +31,16 @@ public class detailActivity extends AppCompatActivity {
         txt2.setText(deliverItem.getItemLocation());
         txt3.setText(deliverItem.getItemTime());
         txt4.setText(deliverItem.getUserNumber());
+
+
+        ImageView g = findViewById(R.id.imageView);
+        g.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= (new Intent(detailActivity.this,MainActivity5.class));
+                startActivity(intent);
+            }
+        });
 
 
     }
