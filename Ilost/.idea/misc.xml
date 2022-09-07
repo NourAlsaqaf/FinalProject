@@ -6,14 +6,17 @@
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/custominput.xml" value="0.1115" />
+        <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1115" />
+        <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_name.xml" value="0.202" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.20993957519531253" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18355407714843752" />
         <entry key="app/src/main/res/layout/activity_main0.xml" value="0.19773358331210367" />
         <entry key="app/src/main/res/layout/activity_main1.xml" value="0.25391540527343753" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.23008778889973963" />
         <entry key="app/src/main/res/layout/activity_main3.xml" value="0.24729923856431157" />
-        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.31548156738281247" />
+        <entry key="app/src/main/res/layout/activity_main4.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main5.xml" value="0.25831298828125" />
         <entry key="app/src/main/res/layout/activity_main6.xml" value="0.24731903076171877" />
         <entry key="app/src/main/res/layout/activity_main7.xml" value="0.32499367534250456" />
@@ -21,6 +24,8 @@
         <entry key="app/src/main/res/layout/item_custom.xml" value="0.38882507324218746" />
         <entry key="app/src/main/res/layout/slider.xml" value="0.2803009033203125" />
         <entry key="app/src/main/res/layout/slider_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
