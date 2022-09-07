@@ -19,11 +19,11 @@ public class MainActivity5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
 
-        Items ikeaBag = new Items(" Ikea Bag", "30 Minutes Ago", R.drawable.ikeabag,"Found place: Avenues","Phone Number: 876609");
-        Items airpods = new Items(" Airpods", "3 Hours Ago",R.drawable.lairpods,"Found place: starbucks-Mahbuola","Phone Number:6555478");
-        Items shoppingBag = new Items(" Shopping Bag", "9 Hours Ago",R.drawable.lshopbag,"Found place:Fintas park","Phone Number:766843");
-        Items backPack = new Items(" Back Pack", "1 Hour Ago",R.drawable.lbackpack,"Found place: Mubarkiya Bus","Phone Number:988876");
-        Items watch = new Items(" Watch", "13 Minutes Ago",R.drawable.lwatch, "Found place: Almasged Alkabeer restroom","Phone Number:988768");
+        Items ikeaBag = new Items(" Ikea Bag", "30 Minutes Ago", R.drawable.ikeabag,"Found place: Avenues","Phone Number: +956-876609");
+        Items airpods = new Items(" Airpods", "3 Hours Ago",R.drawable.lairpods,"Found place: starbucks-Mahbuola","Phone Number: +956-6555478");
+        Items shoppingBag = new Items(" Shopping Bag", "9 Hours Ago",R.drawable.lshopbag,"Found place:Fintas park","Phone Number: +956-766843");
+        Items backPack = new Items(" Back Pack", "1 Hour Ago",R.drawable.lbackpack,"Found place: Mubarkiya Bus","Phone Number: +956-988876");
+        Items watch = new Items(" Watch", "13 Minutes Ago",R.drawable.lwatch, "Found place: Almasged Alkabeer restroom","Phone Number: +956-988768");
 
         itemsList.add(ikeaBag);
         itemsList.add(airpods);

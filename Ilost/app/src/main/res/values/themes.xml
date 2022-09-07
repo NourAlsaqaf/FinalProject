@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Ilost" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/u</item>
+        <item name="colorPrimary">@color/real</item>
         <item name="colorPrimaryVariant">@color/real</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

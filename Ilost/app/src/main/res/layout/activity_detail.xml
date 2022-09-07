@@ -78,7 +78,7 @@
         android:id="@+id/iTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="392dp"
+        android:layout_marginTop="296dp"
         android:fontFamily="@font/enriqueta"
         android:shadowColor="@color/gray"
         android:shadowRadius="10"
@@ -86,7 +86,7 @@
         android:textColor="@color/white"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintHorizontal_bias="0.837"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
